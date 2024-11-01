@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>My Portfolio</title>
 </head>
 <body>
 
     <!-- Navigation bar -->
-    <nav>
-        
+    <nav class="navbar">
         
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -21,33 +22,49 @@
 
 
 
-    <section >
+
+    <section id="work" class="work-class">
         <h2>My Work</h2>
         <ul>
             <li>Design and 3D Modelling of Ballistics and reflectors for Naval Gunboats and HouseBoats</li>
             <li>Salvage operation of a Naval Security Station NNHB 02 from Ezetu in Bayelsa state</li>
             <li>Database creation for Maritime Survey and Certification (NIMASA)</li>
         </ul>
-        <!-- Work Videos -->
-        <video controls width="600" height="400">
-            <source src="https://drive.google.com/file/d/1LuUuJe7Uyl_cz-ip4TEPIozZoRRIKVFZ/view?usp=drive_link" type="video/mp4">
-            Your browser does not support the video tag.
-
-        </video><br>
-        <video controls width="600" height="400">
-            <source src="https://drive.google.com/file/d/1rDkcrZwrcm5XUxt782GVH7B-vwm3oeTK/view?usp=drive_link" type="video/mp4">
-            Your browser does not support the video tag.
-
-        </video> <br>
-        <video controls width="600" height="400">
-            <source src="https://drive.google.com/file/d/1N83jXSN9KSt-tiu7i38H7CYDMbs57oZJ/view?usp=drive_link" type="video/mp4">
-            Your browser does not support the video tag.
-
-        </video>
     </section>
 
+
+    <h2 id="job" class="job-class">Completed Jobs</h2>
+
+
+    <div class="workdiv"> 
+        <section id="video" class="video-class">
+            
+                <video controls width="600" height="400">
+                        <source src="resources/movie2.mp4" type="video/mp4">        
+                </video><br>
+                <p>3D MODEL OF TUG CDR IGWE</p>
+        </section>
+
+        <section id="video" class="video-class">
+            
+                <video controls width="600" height="400">
+                    <source src="resources/movie3.mp4" type="video/mp4">      
+                </video> <br>
+                <p>3D ANIMATION</p>  
+        </section>
+
+        <section id="video" class="video-class">
+            <video controls width="600" height="400">
+                <source src="resources/movie1.mp4" type="video/mp4"> 
+
+            </video>
+            <p>SHORT MOVIE</p>
+        </section>
+
+    </div>
+ 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <p>&copy; 2024 JnrDakolo. All rights reserved.</p>
         <p>Follow me on:
             <a href="https://www.linkedin.com/in/emmanuel-imomotimi-dakolo/" target="_blank">LinkedIn</a> |

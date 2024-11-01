@@ -1,0 +1,435 @@
+
+/* STYLING INDEX PAGE OR HOME PAGE*/
+/* Importing Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Page Layout Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #535353;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f4b400;
+}
+
+/* Home Section */
+.home-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #77777c;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-section h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.home-section img {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.home-section p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.footer a {
+    color: #f4b400;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
+
+/* STYLING About Page*/
+
+.welcome-section img {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #77777c;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.welcome-section h2 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+/* STYLING Resume Page*/
+
+
+.prosum-class {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #77777c;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.prosum-class p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: justify;
+    
+}
+
+.prosum-class h2 {
+    font-size: 1.4rem;
+    color: #333;
+  
+}
+
+
+
+.experience-class {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #77777c;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience-class p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+   
+
+}
+
+.experience-class h2 {
+    font-size: 1.4rem;
+    color: #333;
+    text-align: left;
+
+}
+
+.experience-class h3 {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+}
+
+.experience-class li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-left: 40px;
+    text-align: left;
+}
+
+
+
+
+.education-class {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #77777c;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education-class p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+    
+
+}
+
+.education-class h2 {
+    font-size: 1.4rem;
+    color: #333;
+    text-align: left;
+
+}
+
+.education-class h3 {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+}
+
+.education-class li {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+}
+
+
+
+.skills-class {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #77777c;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skills-class p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+    margin-top: 5px;
+
+}
+
+.skills-class h2 {
+    font-size: 1.4rem;
+    color: #333;
+    text-align: left;
+
+}
+
+.skills-class li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.skills-class ul {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+}
+
+
+
+
+/* Work page Styling */
+
+.work-class {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #77777c;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.work-class p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+    margin-top: 5px;
+
+}
+
+.work-class h2 {
+    font-size: 1.4rem;
+    color: #333;
+    text-align: left;
+
+}
+
+.work-class li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.work-class ul {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+}
+
+
+
+/* Work page Styling  for Videos*/
+
+.video-class {
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #77777c;
+    border-radius: 5px;
+    margin: 10px auto;
+    max-width: 1000px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.video-class h2 {
+    font-size: 1.4rem;
+    color: #333;
+    text-align: center;
+}
+
+
+/* Completed Jobs Heading */
+.job-class {
+    font-size: 2rem;
+    color: #353535;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    position: relative;
+}
+
+/* Contact Section */
+.contact-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #b5b6b8;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 5px;
+
+}
+
+/* Form Styling */
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-section label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Text area Styling */
+.contact-section textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+/* Button Styling */
+.contact-section button {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5e5d5d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section button:hover {
+    background-color: #999077;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+    
+    .home-section h1 {
+        font-size: 2rem;
+    }
+}
