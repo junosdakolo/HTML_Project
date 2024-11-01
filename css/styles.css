@@ -381,34 +381,34 @@ body {
 }
 
 .contact-section label {
-    font-weight: bold;
-    color: #333;
+    font-weight: bolder;
+    color: #3d3c3c;
 }
 
 .contact-section input[type="text"],
 .contact-section input[type="email"],
 .contact-section textarea {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 6px;
     font-size: 1rem;
-    color: #333;
+    color: #3d3c3c;
 }
 
 /* Text area Styling */
 .contact-section textarea {
-    height: 200px;
+    height: 150px;
     resize: vertical;
 }
 
 /* Button Styling */
 .contact-section button {
-    padding: 12px;
+    padding: 15px;
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
-    background-color: #5e5d5d;
+    background-color: #333;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -416,7 +416,7 @@ body {
 }
 
 .contact-section button:hover {
-    background-color: #999077;
+    background-color: #a39e6e;
 }
 
 /* Responsive Design */
